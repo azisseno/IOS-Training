@@ -17,6 +17,7 @@
 		F90214101F4D244900255D73 /* IOS_TrainingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F902140F1F4D244900255D73 /* IOS_TrainingUITests.swift */; };
 		F902141F1F4D27CD00255D73 /* FirstTab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F902141D1F4D27CD00255D73 /* FirstTab.storyboard */; };
 		F90214211F4D27E800255D73 /* secondTab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F90214201F4D27E800255D73 /* secondTab.storyboard */; };
+		F90214241F4D2EFB00255D73 /* ThirdTab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F90214221F4D2EFB00255D73 /* ThirdTab.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		F90214111F4D244900255D73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F902141E1F4D27CD00255D73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/FirstTab.storyboard; sourceTree = "<group>"; };
 		F90214201F4D27E800255D73 /* secondTab.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = secondTab.storyboard; sourceTree = "<group>"; };
+		F90214231F4D2EFB00255D73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/ThirdTab.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				F90213EC1F4D244900255D73 /* AppDelegate.swift */,
 				F90213EE1F4D244900255D73 /* ViewController.swift */,
 				F90213F01F4D244900255D73 /* Main.storyboard */,
+				F90214221F4D2EFB00255D73 /* ThirdTab.storyboard */,
 				F90214201F4D27E800255D73 /* secondTab.storyboard */,
 				F902141D1F4D27CD00255D73 /* FirstTab.storyboard */,
 				F90213F61F4D244900255D73 /* Assets.xcassets */,
@@ -248,6 +251,7 @@
 				F90214211F4D27E800255D73 /* secondTab.storyboard in Resources */,
 				F902141F1F4D27CD00255D73 /* FirstTab.storyboard in Resources */,
 				F90213F71F4D244900255D73 /* Assets.xcassets in Resources */,
+				F90214241F4D2EFB00255D73 /* ThirdTab.storyboard in Resources */,
 				F90213F21F4D244900255D73 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -333,6 +337,14 @@
 				F902141E1F4D27CD00255D73 /* Base */,
 			);
 			name = FirstTab.storyboard;
+			sourceTree = "<group>";
+		};
+		F90214221F4D2EFB00255D73 /* ThirdTab.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F90214231F4D2EFB00255D73 /* Base */,
+			);
+			name = ThirdTab.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
