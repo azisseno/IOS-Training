@@ -15,6 +15,8 @@
 		F90213FA1F4D244900255D73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F90213F81F4D244900255D73 /* LaunchScreen.storyboard */; };
 		F90214051F4D244900255D73 /* IOS_TrainingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90214041F4D244900255D73 /* IOS_TrainingTests.swift */; };
 		F90214101F4D244900255D73 /* IOS_TrainingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F902140F1F4D244900255D73 /* IOS_TrainingUITests.swift */; };
+		F902141F1F4D27CD00255D73 /* FirstTab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F902141D1F4D27CD00255D73 /* FirstTab.storyboard */; };
+		F90214211F4D27E800255D73 /* secondTab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F90214201F4D27E800255D73 /* secondTab.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		F902140B1F4D244900255D73 /* IOS-TrainingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IOS-TrainingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F902140F1F4D244900255D73 /* IOS_TrainingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS_TrainingUITests.swift; sourceTree = "<group>"; };
 		F90214111F4D244900255D73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F902141E1F4D27CD00255D73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/FirstTab.storyboard; sourceTree = "<group>"; };
+		F90214201F4D27E800255D73 /* secondTab.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = secondTab.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				F90213EC1F4D244900255D73 /* AppDelegate.swift */,
 				F90213EE1F4D244900255D73 /* ViewController.swift */,
 				F90213F01F4D244900255D73 /* Main.storyboard */,
+				F90214201F4D27E800255D73 /* secondTab.storyboard */,
+				F902141D1F4D27CD00255D73 /* FirstTab.storyboard */,
 				F90213F61F4D244900255D73 /* Assets.xcassets */,
 				F90213F81F4D244900255D73 /* LaunchScreen.storyboard */,
 				F90213FB1F4D244900255D73 /* Info.plist */,
@@ -239,6 +245,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F90213FA1F4D244900255D73 /* LaunchScreen.storyboard in Resources */,
+				F90214211F4D27E800255D73 /* secondTab.storyboard in Resources */,
+				F902141F1F4D27CD00255D73 /* FirstTab.storyboard in Resources */,
 				F90213F71F4D244900255D73 /* Assets.xcassets in Resources */,
 				F90213F21F4D244900255D73 /* Main.storyboard in Resources */,
 			);
@@ -317,6 +325,14 @@
 				F90213F91F4D244900255D73 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F902141D1F4D27CD00255D73 /* FirstTab.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F902141E1F4D27CD00255D73 /* Base */,
+			);
+			name = FirstTab.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -423,6 +439,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9SQSBS3ANA;
 				INFOPLIST_FILE = "IOS-Training/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "us.altastrat.pushtest.ios.IOS-Training";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -436,6 +453,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9SQSBS3ANA;
 				INFOPLIST_FILE = "IOS-Training/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "us.altastrat.pushtest.ios.IOS-Training";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -520,6 +538,7 @@
 				F90214161F4D244900255D73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F90214171F4D244900255D73 /* Build configuration list for PBXNativeTarget "IOS-TrainingTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +547,7 @@
 				F90214191F4D244900255D73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F902141A1F4D244900255D73 /* Build configuration list for PBXNativeTarget "IOS-TrainingUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +556,7 @@
 				F902141C1F4D244900255D73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
