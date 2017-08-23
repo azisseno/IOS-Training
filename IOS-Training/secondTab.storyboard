@@ -38,7 +38,21 @@
                     <view key="view" contentMode="scaleToFill" id="Au6-5B-Ia0">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lxb-lE-9b8">
+                                <rect key="frame" x="20" y="84" width="335" height="128"/>
+                                <color key="backgroundColor" red="1" green="0.088721860799999996" blue="0.23567399889999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="kIy-Wd-aEi"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="lxb-lE-9b8" firstAttribute="top" secondItem="PUU-9N-7YY" secondAttribute="bottom" constant="20" id="QRb-2E-2To"/>
+                            <constraint firstAttribute="trailing" secondItem="lxb-lE-9b8" secondAttribute="trailing" constant="20" id="Yrt-vi-HK7"/>
+                            <constraint firstItem="lxb-lE-9b8" firstAttribute="leading" secondItem="Au6-5B-Ia0" secondAttribute="leading" constant="20" id="eOj-nG-X2d"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="b8Q-tQ-FwD"/>
                 </viewController>
