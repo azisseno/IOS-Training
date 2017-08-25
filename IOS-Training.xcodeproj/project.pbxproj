@@ -18,6 +18,7 @@
 		F902141F1F4D27CD00255D73 /* FirstTab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F902141D1F4D27CD00255D73 /* FirstTab.storyboard */; };
 		F90214211F4D27E800255D73 /* secondTab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F90214201F4D27E800255D73 /* secondTab.storyboard */; };
 		F90214241F4D2EFB00255D73 /* ThirdTab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F90214221F4D2EFB00255D73 /* ThirdTab.storyboard */; };
+		F90214261F4D396400255D73 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90214251F4D396400255D73 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		F902141E1F4D27CD00255D73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/FirstTab.storyboard; sourceTree = "<group>"; };
 		F90214201F4D27E800255D73 /* secondTab.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = secondTab.storyboard; sourceTree = "<group>"; };
 		F90214231F4D2EFB00255D73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/ThirdTab.storyboard; sourceTree = "<group>"; };
+		F90214251F4D396400255D73 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 			children = (
 				F90213EC1F4D244900255D73 /* AppDelegate.swift */,
 				F90213EE1F4D244900255D73 /* ViewController.swift */,
+				F90214251F4D396400255D73 /* DetailViewController.swift */,
 				F90213F01F4D244900255D73 /* Main.storyboard */,
 				F90214221F4D2EFB00255D73 /* ThirdTab.storyboard */,
 				F90214201F4D27E800255D73 /* secondTab.storyboard */,
@@ -280,6 +283,7 @@
 				F90213EF1F4D244900255D73 /* ViewController.swift in Sources */,
 				F90213F51F4D244900255D73 /* IOS_Training.xcdatamodeld in Sources */,
 				F90213ED1F4D244900255D73 /* AppDelegate.swift in Sources */,
+				F90214261F4D396400255D73 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
